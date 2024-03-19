@@ -2,6 +2,8 @@
 
 This repository contains scripts for setting up a data analytics pipeline for processing Redfin housing market data. The pipeline includes extraction of data from a source URL, transformation of the extracted data, loading the transformed data into an AWS S3 bucket, and visualizing it using Power BI.
 
+Before proceeding, it's recommended to set up Apache Airflow on an Amazon EC2 instance. For detailed instructions on installing Apache Airflow on EC2, please refer to [Installing-Airflow-on-EC2](https://github.com/jravalani/Installing-Airflow-on-EC2) repository.
+
 ## Scripts
 
 ### 1. Snowflake SQL Script
@@ -20,7 +22,7 @@ Filename: `redfin_analytics_dag.py`
 
 To use these scripts:
 
-1. Ensure you have access to Snowflake and Apache Airflow.
+1. Ensure you have set up Apache Airflow on your Amazon EC2 instance using the provided instructions.
 2. Set up your Snowflake environment and execute the `snowflake_data_pipeline.sql` script to create the necessary database objects.
 3. Install Apache Airflow on your Amazon EC2 instance and configure it to run the `redfin_analytics_dag.py` script.
 4. Adjust the configurations in both scripts according to your environment, such as AWS S3 bucket names and database connection details.
@@ -38,5 +40,6 @@ To use these scripts:
 
 ## Contributors
 
-- Jay Ravalani
+- [Your Name]
 
+Feel free to contribute by opening issues or pull requests.
