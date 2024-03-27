@@ -40,6 +40,6 @@ To use these scripts:
 
 ## Contributors
 
-- [Your Name]
+- Jay Ravalani
 
 Feel free to contribute by opening issues or pull requests.
